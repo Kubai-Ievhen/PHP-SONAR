@@ -7,10 +7,11 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false">
+         stopOnFailure="false"
+         syntaxCheck="false">
     <testsuites>
-        <testsuite name="Functional">
-            <directory suffix="Test.php">./tests/Function</directory>
+        <testsuite name="Application Test Suit">
+            <directory suffix="Test.php">./tests</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -29,6 +30,9 @@
         <env name="MAIL_INTERCEPT" value="false"/>
     </php>
     <logging>
-        <log type="coverage-html" target="./storage/test-report" lowUpperBound="50" highLowerBound="80" />
+        <log type="coverage-html" target="./storage/test-report" charset="UTF-8" yui="true" highlight="false" lowUpperBound="50" highLowerBound="80" />
+        <log type="coverage-clover" target="./storage/test-report/codeCoverage.xml"/>
+        <log type="metrics-xml" target="./storage/test-report/metrics.xml"/>
+        <log type="test-xml" target="./storage/test-report/logfile.xml" logIncompleteSkipped="false"/>
     </logging>
 </phpunit>
