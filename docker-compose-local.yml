@@ -13,7 +13,7 @@ services:
       command: --max_allowed_packet=1000000000 --net_buffer_length=1000000
       volumes:
         - db_data:/var/lib/mysql
-      environment: 
+      environment:
         - "MYSQL_ROOT_PASSWORD=${DB_PASSWORD}"
         - "MYSQL_DATABASE=${DB_DATABASE}"
         - "MYSQL_USER=${DB_USERNAME}"
