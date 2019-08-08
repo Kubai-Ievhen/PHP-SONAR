@@ -11,14 +11,7 @@
 |
 */
 
-Route::get('/social/{provider}/authorize', ['as' => 'ms.authorize', 'uses' => 'Auth\MobileSocialController@redirectToProvider']);
-Route::get('/social/{provider}/callback', ['as' => 'ms.callback', 'uses' => 'Auth\MobileSocialController@handleProviderCallback']);
-
-Route::get('reset_password/{token}', ['as' => 'password.reset', function($token)
-{
-     //implement your reset password route here!
-}]);
-
+Route::get('/test', 'TestController@testingData2');
 Route::get('/', function () {
     return view('welcome');
 });
