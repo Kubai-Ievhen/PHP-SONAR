@@ -31,9 +31,7 @@
     </php>
     <logging>
         <log type="coverage-html" target="./storage/test-report" charset="UTF-8" yui="true" highlight="false" lowUpperBound="50" highLowerBound="80" />
-        <log type="coverage-clover" target="./storage/test-report/codeCoverage.xml"/>
-        <log type="metrics-xml" target="./storage/test-report/metrics.xml"/>
-        <log type="test-xml" target="./storage/test-report/logfile.xml" logIncompleteSkipped="false"/>
-        <log type="test-results" target="./storage/test-report/testResults" logIncompleteSkipped="false"/>
+        <log type="coverage-clover" target="./storage/test-report/clover.xml"/>
+        <log type="junit" target="./storage/test-report/junit.xml"/>
     </logging>
 </phpunit>
