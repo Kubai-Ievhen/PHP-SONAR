@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suit" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.240324">
-    <testsuite name="Tests\Unit\ControllerTest" file="/application/tests/Unit/ControllerTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.143840">
-      <testcase name="testExample" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="16" assertions="1" time="0.143840"/>
+  <testsuite name="Application Test Suit" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.384526">
+    <testsuite name="Tests\Unit\ControllerTest" file="/application/tests/Unit/ControllerTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.289320">
+      <testcase name="testExample" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="16" assertions="1" time="0.191701"/>
+      <testcase name="testTestingData2" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="25" assertions="1" time="0.097619"/>
     </testsuite>
-    <testsuite name="Tests\Unit\ExampleTest" file="/application/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.096484">
-      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/application/tests/Unit/ExampleTest.php" line="15" assertions="1" time="0.096484"/>
+    <testsuite name="Tests\Unit\ExampleTest" file="/application/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.095206">
+      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/application/tests/Unit/ExampleTest.php" line="15" assertions="1" time="0.095206"/>
     </testsuite>
   </testsuite>
 </testsuites>
