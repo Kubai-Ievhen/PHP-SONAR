@@ -16,7 +16,7 @@ What I made is really simple: an integration of these three packages and a setup
 
 ## Main Features
 
-### Ready-To-Use Authentication Controllers 
+### Ready-To-Use Authentication Controllers     
 
 You don't have to worry about authentication and password recovery anymore. I created four controllers you can find in the `App\Api\V1\Controllers` for those operations.
 

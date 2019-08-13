@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tests>
-  <test className="Tests\Unit\ControllerTest" methodName="testExample" prettifiedClassName="Unit\Controller" prettifiedMethodName="Example" status="0" time="0.19456696510315" size="-1" groups="default"/>
-  <test className="Tests\Unit\ControllerTest" methodName="testTestingData2" prettifiedClassName="Unit\Controller" prettifiedMethodName="Testing data 2" status="0" time="0.098004817962646" size="-1" groups="default"/>
-  <test className="Tests\Unit\ExampleTest" methodName="testBasicTest" prettifiedClassName="Unit\Example" prettifiedMethodName="Basic test" status="0" time="0.099595785140991" size="-1" groups="default"/>
-</tests>
