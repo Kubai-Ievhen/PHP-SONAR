@@ -8,7 +8,7 @@ use App\TestCase;
 use App\Http\Controllers\DataController;
 
 class ControllerTest extends TestCase
-{
+{ 
     /**
      * A basic unit test example.
      *
