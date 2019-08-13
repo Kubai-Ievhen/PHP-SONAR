@@ -2,8 +2,6 @@
 
 [ -f ./.env ] || cp ./.env.local ./.env
 
-php artisan config:clear;
-php artisan config:cache;
 php composer.phar install;
 
 chmod -R 777 /application/bootstrap/cache;
@@ -16,7 +14,8 @@ do
 	sleep 3;
 done;
 
-# uncomment the line below on first installation
+php artisan l5-swagger:generate;
+
 #php artisan migrate:install
 php artisan migrate --force;
 
