@@ -37,5 +37,6 @@
         <log type="coverage-php" target="./storage/test-report/coverage-php.php"/>
         <log type="testdox-xml" target="./storage/test-report/testdox-xml.xml"/>
         <log type="test" target="./storage/test-report/test.xml"/>
+        <log type="test12" target="./storage/test-report/test.xml"/>
     </logging>
 </phpunit>
