@@ -30,7 +30,6 @@
     </php>
     <logging>
         <log type="coverage-clover" target="./test-report/clover.xml"/>
-        <log type="coverage-xml" target="./test-report/coverage"/>
         <log type="junit" target="./test-report/junit.xml"/>
     </logging>
 </phpunit>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suit" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.348541">
-    <testsuite name="Tests\Unit\ControllerTest" file="/application/tests/Unit/ControllerTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.251910">
-      <testcase name="testExample" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="17" assertions="1" time="0.149950"/>
-      <testcase name="testTestingData2" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="26" assertions="1" time="0.101960"/>
+  <testsuite name="Application Test Suit" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.401265">
+    <testsuite name="Tests\Unit\ControllerTest" file="/application/tests/Unit/ControllerTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.290706">
+      <testcase name="testExample" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="16" assertions="1" time="0.178290"/>
+      <testcase name="testTestingData2" class="Tests\Unit\ControllerTest" classname="Tests.Unit.ControllerTest" file="/application/tests/Unit/ControllerTest.php" line="25" assertions="1" time="0.112416"/>
     </testsuite>
-    <testsuite name="Tests\Unit\ExampleTest" file="/application/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.096631">
-      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/application/tests/Unit/ExampleTest.php" line="16" assertions="1" time="0.096631"/>
+    <testsuite name="Tests\Unit\ExampleTest" file="/application/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.110559">
+      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/application/tests/Unit/ExampleTest.php" line="15" assertions="1" time="0.110559"/>
     </testsuite>
   </testsuite>
 </testsuites>
