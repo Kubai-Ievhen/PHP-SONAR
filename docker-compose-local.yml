@@ -1,11 +1,11 @@
 version: "3.4"
 services:
 
-    mailhog:
-      image: mailhog/mailhog:latest
-      container_name: "${DOCKER_PREFIX}-mailhog"
-      ports:
-        - "8025:8025"
+#    mailhog:
+#      image: mailhog/mailhog:latest
+#      container_name: "${DOCKER_PREFIX}-mailhog"
+#      ports:
+#        - "8025:8025"
 
     mysql:
       image: mysql:5.7
@@ -13,28 +13,42 @@ services:
       command: --max_allowed_packet=1000000000 --net_buffer_length=1000000
       volumes:
         - db_data:/var/lib/mysql
-      ports:
-        - "3306:3306"
       environment:
         - "MYSQL_ROOT_PASSWORD=${DB_PASSWORD}"
         - "MYSQL_DATABASE=${DB_DATABASE}"
         - "MYSQL_USER=${DB_USERNAME}"
         - "MYSQL_PASSWORD=${DB_PASSWORD}"
 
-    redis:
-      image: redis:5.0-rc-alpine
-      container_name: "${DOCKER_PREFIX}-redis"
-      command: --requirepass 12345
+#    redis:
+#      image: redis:5.0-rc-alpine
+#      container_name: "${DOCKER_PREFIX}-redis"
+#      command: --requirepass 12345
 
-    webserver:
-      image: nginx
+#    webserver:
+#      image: nginx
+#      container_name: "${DOCKER_PREFIX}-webserver"
+#      working_dir: /application
+#      volumes:
+#        - .:/application
+#        - ./docker/local/nginx/vh2.conf:/etc/nginx/conf.d/nginx.conf
+#      ports:
+#        - "8000:80"
+#      depends_on:
+#        - php-fpm
+
+    webserver: #lua redis webserver
+      build:
+        context: .
+        dockerfile: ./docker/local/nginx/Dockerfile
       container_name: "${DOCKER_PREFIX}-webserver"
       working_dir: /application
       volumes:
         - .:/application
-        - ./docker/local/nginx/vh.conf:/etc/nginx/conf.d/default.conf
+        - ./docker/local/nginx/vh.conf:/etc/nginx/conf.d/nginx.conf
       ports:
         - "8000:80"
+        - "443:443"
+        - "8001:8001"
       depends_on:
         - php-fpm
 
@@ -51,10 +65,10 @@ services:
         - .:/application
         - ./docker/local/php-fpm/php.ini:/usr/local/etc/php/conf.d/99-overrides.ini
         - ./docker/local/php-fpm/supervisor-workers.conf:/etc/supervisor/conf.d/supervisor-workers.conf
-      command:
-        - ./docker/local/php-fpm/start.sh
+        - ./composer.json:/application/composer.json
       depends_on:
         - mysql
+      command: ['php-fpm']
 
 volumes:
   db_data:
