@@ -9,7 +9,7 @@ class DataController extends Controller
     /**
      * @return array
      */
-    public function testingData()
+    public function getData()
     {
         return [1,2,3];
     }
