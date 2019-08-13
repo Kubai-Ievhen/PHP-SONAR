@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1565698201">
-  <project timestamp="1565698201">
+<coverage generated="1565698330">
+  <project timestamp="1565698330">
     <package name="App\Api\V1\Controllers\Auth">
       <file name="/application/app/Api/V1/Controllers/Auth/SocialController.php">
         <class name="App\Api\V1\Controllers\Auth\SocialController" namespace="App\Api\V1\Controllers\Auth" fullPackage="App" package="App">
