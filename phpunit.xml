@@ -32,6 +32,6 @@
         <log type="coverage-clover" target="./test-report/clover.xml"/>
         <log type="coverage-xml" target="./test-report/coverage"/>
         <log type="junit" target="./test-report/junit.xml"/>
-        <log type="test12" target="./storage/test-report/test.xml"/>
+        <log type="testdox-xml" target="./test-report/testdox.xml"/>
     </logging>
 </phpunit>
