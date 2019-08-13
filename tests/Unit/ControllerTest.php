@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use App\TestCase;
 
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\DataController;
 
 class ControllerTest extends TestCase
 {
@@ -15,7 +15,7 @@ class ControllerTest extends TestCase
      */
     public function testExample()
     {
-        $this->assertTrue((new TestController)->testingData() == [1,2,3]);
+        $this->assertTrue((new DataController)->testingData() == [1,2,3]);
     }
     /**
      * A basic unit test example.
@@ -24,6 +24,6 @@ class ControllerTest extends TestCase
      */
     public function testTestingData2()
     {
-        $this->assertTrue((new TestController)->testingData2() == [1,2,3]);
+        $this->assertTrue((new DataController)->testingData2() == [1,2,3]);
     }
 }
