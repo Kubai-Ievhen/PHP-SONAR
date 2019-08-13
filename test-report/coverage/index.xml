@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Tue Aug 13 7:18:27 GMT+0000 2019" phpunit="7.5.14" coverage="6.1.4">
+  <build time="Tue Aug 13 9:00:22 GMT+0000 2019" phpunit="7.5.14" coverage="6.1.4">
     <runtime name="PHP" version="7.2.2" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.0"/>
   </build>
@@ -12,10 +12,10 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="583" comments="224" code="359" executable="48" executed="29" percent="60.42"/>
-        <methods count="22" tested="12" percent="54.55"/>
+        <lines total="607" comments="230" code="377" executable="50" executed="29" percent="58.00"/>
+        <methods count="24" tested="12" percent="50.00"/>
         <functions count="0" tested="0" percent="0"/>
-        <classes count="11" tested="6" percent="54.55"/>
+        <classes count="12" tested="6" percent="50.00"/>
         <traits count="0" tested="0" percent="0"/>
       </totals>
       <directory name="Console">
@@ -56,18 +56,18 @@
       </directory>
       <directory name="Http">
         <totals>
-          <lines total="180" comments="57" code="123" executable="5" executed="2" percent="40.00"/>
-          <methods count="3" tested="2" percent="66.67"/>
+          <lines total="204" comments="63" code="141" executable="7" executed="2" percent="28.57"/>
+          <methods count="5" tested="2" percent="40.00"/>
           <functions count="0" tested="0" percent="0"/>
-          <classes count="2" tested="1" percent="50.00"/>
+          <classes count="3" tested="1" percent="33.33"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <directory name="Controllers">
           <totals>
-            <lines total="37" comments="6" code="31" executable="2" executed="2" percent="100.00"/>
-            <methods count="2" tested="2" percent="100.00"/>
+            <lines total="61" comments="12" code="49" executable="4" executed="2" percent="50.00"/>
+            <methods count="4" tested="2" percent="50.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="1" percent="100.00"/>
+            <classes count="2" tested="1" percent="50.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
           <file name="Controller.php" href="Http/Controllers/Controller.php.xml">
@@ -79,12 +79,21 @@
               <traits count="0" tested="0" percent="0"/>
             </totals>
           </file>
-          <file name="TestController.php" href="Http/Controllers/TestController.php.xml">
+          <file name="DataController.php" href="Http/Controllers/DataController.php.xml">
             <totals>
               <lines total="24" comments="6" code="18" executable="2" executed="2" percent="100.00"/>
               <methods count="2" tested="2" percent="100.00"/>
               <functions count="0" tested="0" percent="0"/>
               <classes count="1" tested="1" percent="100.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="NewController.php" href="Http/Controllers/NewController.php.xml">
+            <totals>
+              <lines total="24" comments="6" code="18" executable="2" executed="0" percent="0.00"/>
+              <methods count="2" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
               <traits count="0" tested="0" percent="0"/>
             </totals>
           </file>

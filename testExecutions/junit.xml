@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/application/tests/Unit/ControllerTest.php">
+    <testCase name="testExample" duration="5"/>
+    <testCase name="testTestingData2" duration="5"/>
+  </file>
+  <file path="/application/tests/Unit/ExampleTest.php">
+    <testCase name="testBasicTest" duration="5"/>
+  </file>
+</testExecutions>
