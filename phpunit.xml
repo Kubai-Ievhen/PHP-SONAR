@@ -32,6 +32,15 @@
     </php>
     <logging>
         <log type="coverage-clover" target="clover.xml"/>
+        <log type="coverage-text" target="reports/coverage-text"/>
+        <log type="coverage-crap4j" target="reports/coverage-crap4j"/>
+        <log type="coverage-xml" target="coverage-xml"/>
+        <log type="json" target="reports/json"/>
+        <log type="plain" target="reports/plain"/>
+        <log type="tap" target="reports/tap"/>
+        <log type="teamcity" target="reports/teamcity"/>
+        <log type="testdox-xml" target="reports/testdox-xml"/>
+        <log type="testdox-text" target="reports/testdox-text"/>
         <log type="junit" target="junit.xml"/>
     </logging>
 </phpunit>
