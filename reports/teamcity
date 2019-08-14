@@ -1,0 +1,94 @@
+
+##teamcity[testCount count='11' flowId='39']
+
+##teamcity[testSuiteStarted name='Unit' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Feature\DestroyUserControllerTest' locationHint='php_qn:///application/tests/Feature/DestroyUserControllerTest.php::\Tests\Feature\DestroyUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Feature/DestroyUserControllerTest.php::\Tests\Feature\DestroyUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='1004' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Feature\DestroyUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Feature\IndexUserControllerTest' locationHint='php_qn:///application/tests/Feature/IndexUserControllerTest.php::\Tests\Feature\IndexUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Feature/IndexUserControllerTest.php::\Tests\Feature\IndexUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='806' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Feature\IndexUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Feature\ShowUserControllerTest' locationHint='php_qn:///application/tests/Feature/ShowUserControllerTest.php::\Tests\Feature\ShowUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Feature/ShowUserControllerTest.php::\Tests\Feature\ShowUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='315' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Feature\ShowUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Feature\StoreUserControllerTest' locationHint='php_qn:///application/tests/Feature/StoreUserControllerTest.php::\Tests\Feature\StoreUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Feature/StoreUserControllerTest.php::\Tests\Feature\StoreUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='264' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Feature\StoreUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Feature\UpdateUserControllerTest' locationHint='php_qn:///application/tests/Feature/UpdateUserControllerTest.php::\Tests\Feature\UpdateUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Feature/UpdateUserControllerTest.php::\Tests\Feature\UpdateUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='321' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Feature\UpdateUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\DataControllerTest' locationHint='php_qn:///application/tests/Unit/DataControllerTest.php::\Tests\Unit\DataControllerTest' flowId='39']
+
+##teamcity[testStarted name='testGetData' locationHint='php_qn:///application/tests/Unit/DataControllerTest.php::\Tests\Unit\DataControllerTest::testGetData' flowId='39']
+
+##teamcity[testFinished name='testGetData' duration='174' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\DataControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\DestroyUserControllerTest' locationHint='php_qn:///application/tests/Unit/DestroyUserControllerTest.php::\Tests\Unit\DestroyUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Unit/DestroyUserControllerTest.php::\Tests\Unit\DestroyUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='287' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\DestroyUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\IndexUserControllerTest' locationHint='php_qn:///application/tests/Unit/IndexUserControllerTest.php::\Tests\Unit\IndexUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Unit/IndexUserControllerTest.php::\Tests\Unit\IndexUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='764' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\IndexUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\ShowUserControllerTest' locationHint='php_qn:///application/tests/Unit/ShowUserControllerTest.php::\Tests\Unit\ShowUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Unit/ShowUserControllerTest.php::\Tests\Unit\ShowUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='294' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\ShowUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\StoreUserControllerTest' locationHint='php_qn:///application/tests/Unit/StoreUserControllerTest.php::\Tests\Unit\StoreUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Unit/StoreUserControllerTest.php::\Tests\Unit\StoreUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='243' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\StoreUserControllerTest' flowId='39']
+
+##teamcity[testSuiteStarted name='Tests\Unit\UpdateUserControllerTest' locationHint='php_qn:///application/tests/Unit/UpdateUserControllerTest.php::\Tests\Unit\UpdateUserControllerTest' flowId='39']
+
+##teamcity[testStarted name='testExample' locationHint='php_qn:///application/tests/Unit/UpdateUserControllerTest.php::\Tests\Unit\UpdateUserControllerTest::testExample' flowId='39']
+
+##teamcity[testFinished name='testExample' duration='306' flowId='39']
+
+##teamcity[testSuiteFinished name='Tests\Unit\UpdateUserControllerTest' flowId='39']
+
+##teamcity[testSuiteFinished name='Unit' flowId='39']

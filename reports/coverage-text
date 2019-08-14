@@ -1,0 +1,26 @@
+
+
+Code Coverage Report:    
+  2019-08-14 10:06:03    
+                         
+ Summary:                
+  Classes: 54.55% (6/11) 
+  Methods: 65.38% (17/26)
+  Lines:   69.09% (38/55)
+
+\App\Console::App\Console\Kernel
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  3/  3)
+\App\Http\Controllers::App\Http\Controllers\DataController
+  Methods:  50.00% ( 1/ 2)   Lines:  50.00% (  1/  2)
+\App\Http\Controllers::App\Http\Controllers\UserController
+  Methods: 100.00% ( 5/ 5)   Lines: 100.00% (  8/  8)
+\App\Models::App\Models\User
+  Methods:  25.00% ( 1/ 4)   Lines:  40.00% (  2/  5)
+\App\Providers::App\Providers\AppServiceProvider
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  2/  2)
+\App\Providers::App\Providers\AuthServiceProvider
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\App\Providers::App\Providers\EventServiceProvider
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\App\Providers::App\Providers\RouteServiceProvider
+  Methods: 100.00% ( 4/ 4)   Lines: 100.00% ( 18/ 18)
