@@ -19,7 +19,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./app</directory>
+            <directory suffix=".php">./app/Http</directory>
         </whitelist>
     </filter>
     <php>
@@ -31,7 +31,7 @@
         <server name="SESSION_DRIVER" value="array"/>
     </php>
     <logging>
-        <log type="coverage-clover" target="./test-report/clover.xml"/>
-        <log type="junit" target="./test-report/junit.xml"/>
+        <log type="coverage-clover" target="clover.xml"/>
+        <log type="junit" target="junit.xml"/>
     </logging>
 </phpunit>
