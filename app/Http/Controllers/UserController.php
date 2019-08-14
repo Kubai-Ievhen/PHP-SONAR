@@ -23,7 +23,7 @@ class UserController extends Controller
     public function store(Request $request, User $user)
     {
         $user->create($request->all());
-        return $user->refresh();
+        return $user->where('email', $request->email)->first();
     }
 
     /**
