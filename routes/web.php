@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/test', 'TestController@testingData2');
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::apiResource('users', 'UserController');
+
