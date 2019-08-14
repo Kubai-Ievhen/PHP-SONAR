@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="11" assertions="22" errors="0" failures="0" skipped="0" time="5.406417">
+    <testsuite name="Unit" tests="11" assertions="22" errors="0" failures="0" skipped="0" time="5.406417">
+      <testsuite name="Tests\Feature\DestroyUserControllerTest" file="/application/tests/Feature/DestroyUserControllerTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="1.109763">
+        <testcase name="testExample" class="Tests\Feature\DestroyUserControllerTest" classname="Tests.Feature.DestroyUserControllerTest" file="/application/tests/Feature/DestroyUserControllerTest.php" line="17" assertions="3" time="1.109763"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\IndexUserControllerTest" file="/application/tests/Feature/IndexUserControllerTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.886048">
+        <testcase name="testExample" class="Tests\Feature\IndexUserControllerTest" classname="Tests.Feature.IndexUserControllerTest" file="/application/tests/Feature/IndexUserControllerTest.php" line="16" assertions="2" time="0.886048"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ShowUserControllerTest" file="/application/tests/Feature/ShowUserControllerTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.357373">
+        <testcase name="testExample" class="Tests\Feature\ShowUserControllerTest" classname="Tests.Feature.ShowUserControllerTest" file="/application/tests/Feature/ShowUserControllerTest.php" line="16" assertions="3" time="0.357373"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\StoreUserControllerTest" file="/application/tests/Feature/StoreUserControllerTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.297834">
+        <testcase name="testExample" class="Tests\Feature\StoreUserControllerTest" classname="Tests.Feature.StoreUserControllerTest" file="/application/tests/Feature/StoreUserControllerTest.php" line="16" assertions="2" time="0.297834"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\UpdateUserControllerTest" file="/application/tests/Feature/UpdateUserControllerTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.374258">
+        <testcase name="testExample" class="Tests\Feature\UpdateUserControllerTest" classname="Tests.Feature.UpdateUserControllerTest" file="/application/tests/Feature/UpdateUserControllerTest.php" line="16" assertions="3" time="0.374258"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\DataControllerTest" file="/application/tests/Unit/DataControllerTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.203296">
+        <testcase name="testGetData" class="Tests\Unit\DataControllerTest" classname="Tests.Unit.DataControllerTest" file="/application/tests/Unit/DataControllerTest.php" line="15" assertions="1" time="0.203296"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\DestroyUserControllerTest" file="/application/tests/Unit/DestroyUserControllerTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.337981">
+        <testcase name="testExample" class="Tests\Unit\DestroyUserControllerTest" classname="Tests.Unit.DestroyUserControllerTest" file="/application/tests/Unit/DestroyUserControllerTest.php" line="17" assertions="2" time="0.337981"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\IndexUserControllerTest" file="/application/tests/Unit/IndexUserControllerTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.849830">
+        <testcase name="testExample" class="Tests\Unit\IndexUserControllerTest" classname="Tests.Unit.IndexUserControllerTest" file="/application/tests/Unit/IndexUserControllerTest.php" line="17" assertions="1" time="0.849830"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\ShowUserControllerTest" file="/application/tests/Unit/ShowUserControllerTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.347448">
+        <testcase name="testExample" class="Tests\Unit\ShowUserControllerTest" classname="Tests.Unit.ShowUserControllerTest" file="/application/tests/Unit/ShowUserControllerTest.php" line="18" assertions="2" time="0.347448"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\StoreUserControllerTest" file="/application/tests/Unit/StoreUserControllerTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.283620">
+        <testcase name="testExample" class="Tests\Unit\StoreUserControllerTest" classname="Tests.Unit.StoreUserControllerTest" file="/application/tests/Unit/StoreUserControllerTest.php" line="19" assertions="1" time="0.283620"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\UpdateUserControllerTest" file="/application/tests/Unit/UpdateUserControllerTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.358966">
+        <testcase name="testExample" class="Tests\Unit\UpdateUserControllerTest" classname="Tests.Unit.UpdateUserControllerTest" file="/application/tests/Unit/UpdateUserControllerTest.php" line="19" assertions="2" time="0.358966"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
