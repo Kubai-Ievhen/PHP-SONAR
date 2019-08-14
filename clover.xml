@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1565761441">
-  <project timestamp="1565761441">
+<coverage generated="1565763264">
+  <project timestamp="1565763264">
     <package name="App\Http\Controllers">
       <file name="/application/app/Http/Controllers/Controller.php">
         <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
