@@ -5,13 +5,13 @@
 #sonar.sources=app
 #sonar.tests=tests/Unit,tests/Feature
 #
-#sonar.language=php
+sonar.language=php
 #sonar.dynamicAnalysis=true
 #sonar.sourceEncoding=UTF-8
 #
 ## Reusing PHPUnit reports
-#sonar.php.coverage.reportPaths=reports/clover.xml
-#sonar.php.tests.reportPath=reports/junit.xml
+sonar.php.coverage.reportPaths=reports/clover.xml
+sonar.php.tests.reportPath=reports/junit.xml
 
 
 # Path to sources
